@@ -6,7 +6,6 @@ class Polygon{
             density:1.5
         }
         this.body=Bodies.polygon(x,y,5,20,options)
-        console.log(this.body)
         World.add(world,this.body);
     }
     display(){
